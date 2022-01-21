@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Questrial&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+coming-soon{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: "Questrial";
+    text-align: center;
+}
+
+coming-soon-title{
+    font-size:30px;
+}
+
+coming-soon-social-media{
+    margin:10px 0 0 0;
+    font-size:20px;
+}
+
+coming-soon-social-media i{
+    margin:0 10px 0 0;
+}
+
+coming-soon-title,
+coming-soon-social-media{
+    display:block;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    font-family: "Questrial";
+    padding:20px 0;
+    text-align: center;
+    font-size:14px;
+    color:rgb(126, 126, 126);
+}
+
+footer a{
+    color:blue;
+    text-decoration: underline;
+}
